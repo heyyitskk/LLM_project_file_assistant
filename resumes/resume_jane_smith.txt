@@ -1,0 +1,21 @@
+Jane Smith
+Data Scientist
+Email: jane.smith@example.com | Phone: (555) 987-6543
+
+SUMMARY
+Data scientist with 4 years of experience in machine learning, statistical
+modeling, and data visualization. Proficient in Python and R.
+
+SKILLS
+Python, R, scikit-learn, TensorFlow, Pandas, SQL, Tableau
+
+EXPERIENCE
+Data Scientist, DataWorks (2022 - Present)
+- Built predictive models in Python using scikit-learn and TensorFlow
+- Presented insights to stakeholders using Tableau dashboards
+
+Junior Data Analyst, Insight Analytics (2020 - 2022)
+- Automated reporting pipelines using Python and SQL
+
+EDUCATION
+M.S. Statistics, Tech University (2020)

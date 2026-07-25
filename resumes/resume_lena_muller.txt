@@ -1,0 +1,18 @@
+Lena Muller
+Product Manager
+Email: lena.muller@example.com | Phone: (555) 111-9988
+
+SUMMARY
+Product manager with 6 years of experience leading cross-functional teams
+to ship consumer-facing products.
+
+SKILLS
+Product Strategy, Roadmapping, SQL, Agile, Stakeholder Management
+
+EXPERIENCE
+Senior Product Manager, Northwind Apps (2021 - Present)
+- Owned roadmap for a product with 500K monthly active users
+- Coordinated engineering, design, and marketing across 3 releases/year
+
+EDUCATION
+MBA, Harborview Business School (2018)

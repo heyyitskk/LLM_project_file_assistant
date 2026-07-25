@@ -1,0 +1,18 @@
+Carlos Ramirez
+Frontend Developer
+Email: carlos.ramirez@example.com | Phone: (555) 456-7890
+
+SUMMARY
+Frontend developer specializing in React and TypeScript with an eye for
+accessible, performant UI.
+
+SKILLS
+JavaScript, TypeScript, React, Redux, CSS, HTML, Jest
+
+EXPERIENCE
+Frontend Developer, PixelWorks (2021 - Present)
+- Rebuilt customer dashboard in React, improving load time by 35%
+- Mentored 2 junior developers on component architecture
+
+EDUCATION
+B.A. Computer Science, Riverside College (2021)

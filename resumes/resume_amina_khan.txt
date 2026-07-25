@@ -1,0 +1,18 @@
+Amina Khan
+DevOps Engineer
+Email: amina.khan@example.com | Phone: (555) 222-3344
+
+SUMMARY
+DevOps engineer with strong Python scripting skills and hands-on
+experience automating CI/CD pipelines and cloud infrastructure.
+
+SKILLS
+Python, Bash, Terraform, AWS, Jenkins, Docker, Kubernetes
+
+EXPERIENCE
+DevOps Engineer, CloudNine Systems (2020 - Present)
+- Automated infrastructure provisioning using Python and Terraform
+- Reduced deployment failures by 60% through improved CI/CD pipelines
+
+EDUCATION
+B.S. Information Technology, Coastal University (2020)

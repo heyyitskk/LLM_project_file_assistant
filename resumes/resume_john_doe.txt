@@ -1,0 +1,23 @@
+John Doe
+Software Engineer
+Email: john.doe@example.com | Phone: (555) 123-4567
+
+SUMMARY
+Backend engineer with 5 years of experience building scalable web services
+in Python and Go. Strong background in distributed systems and cloud
+infrastructure.
+
+SKILLS
+Python, Django, FastAPI, PostgreSQL, Docker, Kubernetes, AWS, Git
+
+EXPERIENCE
+Senior Software Engineer, Acme Corp (2021 - Present)
+- Led migration of monolith to microservices using Python and Kubernetes
+- Built internal tooling in Python that reduced deployment time by 40%
+
+Software Engineer, Beta Inc (2019 - 2021)
+- Developed REST APIs in Python (Flask) serving 1M+ requests/day
+- Wrote automated tests achieving 90% code coverage
+
+EDUCATION
+B.S. Computer Science, State University (2019)
