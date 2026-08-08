@@ -1,0 +1,20 @@
+Yuki Sato
+Security Engineer
+Email: yuki.sato@example.com | Phone: (555) 926-1711
+
+SUMMARY
+Security Engineer with 4 years of experience as a security engineer hardening infrastructure and responding to incidents.
+
+SKILLS
+Python, Networking, Penetration Testing, AWS, SIEM
+
+EXPERIENCE
+Security Engineer, Anchor Systems (2022 - Present)
+- Led initiatives using Python and Networking to improve team output
+- Collaborated across teams to deliver projects on schedule
+
+Security Engineer (Junior), Vertex Labs (2020 - 2022)
+- Built foundational skills in Python while contributing to core systems
+
+EDUCATION
+M.S. Computer Science, Midtown University (2020)

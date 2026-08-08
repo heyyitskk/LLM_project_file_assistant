@@ -1,0 +1,12 @@
+DevOps Engineer
+
+We need a DevOps Engineer to own our CI/CD pipelines and cloud
+infrastructure.
+
+Requirements:
+- 4+ years Python or Bash scripting experience
+- Hands-on Terraform and AWS experience
+- Experience with Kubernetes and Docker
+- Track record of building reliable CI/CD pipelines
+
+Nice to have: security hardening experience, on-call incident response.

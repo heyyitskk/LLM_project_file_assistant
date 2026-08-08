@@ -1,0 +1,13 @@
+Data Scientist
+
+We're hiring a Data Scientist to build predictive models that drive product
+decisions.
+
+Requirements:
+- 3+ years experience in data science or machine learning
+- Strong Python skills (Pandas, scikit-learn)
+- Experience with TensorFlow or PyTorch
+- Solid grounding in statistics
+- SQL proficiency for data extraction
+
+Nice to have: experience presenting insights to non-technical stakeholders.

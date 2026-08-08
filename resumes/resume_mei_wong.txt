@@ -1,0 +1,20 @@
+Mei Wong
+Data Engineer
+Email: mei.wong@example.com | Phone: (555) 903-8749
+
+SUMMARY
+Data Engineer with 3 years of experience as a data engineer designing pipelines that move and transform large datasets.
+
+SKILLS
+Python, SQL, Airflow, Spark, AWS, ETL
+
+EXPERIENCE
+Data Engineer, Lumen Technologies (2021 - Present)
+- Led initiatives using Python and SQL to improve team output
+- Collaborated across teams to deliver projects on schedule
+
+Data Engineer (Junior), PixelWorks (2021 - 2021)
+- Built foundational skills in Python while contributing to core systems
+
+EDUCATION
+M.S. Computer Science, Tech University (2021)

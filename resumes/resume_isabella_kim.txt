@@ -1,0 +1,20 @@
+Isabella Kim
+Full Stack Developer
+Email: isabella.kim@example.com | Phone: (555) 529-4611
+
+SUMMARY
+Full Stack Developer with 8 years of experience as a full stack developer comfortable across the entire web stack.
+
+SKILLS
+Python, JavaScript, React, Django, PostgreSQL, Docker
+
+EXPERIENCE
+Full Stack Developer, Anchor Systems (2022 - Present)
+- Led initiatives using Python and JavaScript to improve team output
+- Collaborated across teams to deliver projects on schedule
+
+Full Stack Developer (Junior), BrightPath Analytics (2016 - 2022)
+- Built foundational skills in Python while contributing to core systems
+
+EDUCATION
+B.A. Computer Science, State University (2016)

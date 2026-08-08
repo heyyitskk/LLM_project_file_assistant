@@ -1,0 +1,20 @@
+Raj Kowalski
+Cloud Architect
+Email: raj.kowalski@example.com | Phone: (555) 884-3060
+
+SUMMARY
+Cloud Architect with 8 years of experience as a cloud architect designing resilient, cost-efficient infrastructure.
+
+SKILLS
+AWS, Azure, Terraform, Kubernetes, System Design, Python
+
+EXPERIENCE
+Cloud Architect, CloudNine Systems (2022 - Present)
+- Led initiatives using AWS and Azure to improve team output
+- Collaborated across teams to deliver projects on schedule
+
+Cloud Architect (Junior), Skyline Software (2016 - 2022)
+- Built foundational skills in AWS while contributing to core systems
+
+EDUCATION
+M.S. Statistics, Fairview University (2016)

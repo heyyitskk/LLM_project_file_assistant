@@ -1,0 +1,20 @@
+Mei Silva
+DevOps Engineer
+Email: mei.silva@example.com | Phone: (555) 325-1117
+
+SUMMARY
+DevOps Engineer with 9 years of experience as a DevOps engineer automating infrastructure and deployment pipelines.
+
+SKILLS
+Python, Bash, Terraform, AWS, Kubernetes, CI/CD, Docker
+
+EXPERIENCE
+DevOps Engineer, DataWorks (2022 - Present)
+- Led initiatives using Python and Bash to improve team output
+- Collaborated across teams to deliver projects on schedule
+
+DevOps Engineer (Junior), Nimbus Cloud (2015 - 2022)
+- Built foundational skills in Python while contributing to core systems
+
+EDUCATION
+B.S. Computer Science, Coastal University (2015)

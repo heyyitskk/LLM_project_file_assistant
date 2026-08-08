@@ -1,0 +1,20 @@
+Omar Sato
+QA Engineer
+Email: omar.sato@example.com | Phone: (555) 578-1887
+
+SUMMARY
+QA Engineer with 6 years of experience as a QA engineer building automated test suites to catch regressions early.
+
+SKILLS
+Python, Selenium, Test Automation, Jenkins, API Testing
+
+EXPERIENCE
+QA Engineer, PixelWorks (2022 - Present)
+- Led initiatives using Python and Selenium to improve team output
+- Collaborated across teams to deliver projects on schedule
+
+QA Engineer (Junior), Acme Corp (2018 - 2022)
+- Built foundational skills in Python while contributing to core systems
+
+EDUCATION
+MBA, Lakeside University (2018)

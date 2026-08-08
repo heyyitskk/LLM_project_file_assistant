@@ -1,0 +1,20 @@
+Anya Hassan
+Backend Engineer
+Email: anya.hassan@example.com | Phone: (555) 381-5012
+
+SUMMARY
+Backend Engineer with 11 years of experience as a backend engineer focused on building scalable, reliable APIs and services.
+
+SKILLS
+Python, Django, PostgreSQL, Redis, Docker, AWS, REST APIs
+
+EXPERIENCE
+Backend Engineer, Ironclad Systems (2022 - Present)
+- Led initiatives using Python and Django to improve team output
+- Collaborated across teams to deliver projects on schedule
+
+Backend Engineer (Junior), DataWorks (2013 - 2022)
+- Built foundational skills in Python while contributing to core systems
+
+EDUCATION
+M.S. Computer Science, Fairview University (2013)

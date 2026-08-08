@@ -1,0 +1,11 @@
+Frontend Developer (React)
+
+Join our team building customer-facing web applications in React.
+
+Requirements:
+- 2+ years JavaScript/TypeScript experience
+- Strong React experience, including hooks and state management
+- Familiarity with testing frameworks (Jest)
+- Eye for accessible, responsive UI design
+
+Nice to have: design systems experience, CSS-in-JS familiarity.

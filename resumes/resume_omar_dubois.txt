@@ -1,0 +1,17 @@
+Omar Dubois
+Data Engineer
+Email: omar.dubois@example.com | Phone: (555) 839-5315
+
+SUMMARY
+Data Engineer with 0 years of experience as a data engineer designing pipelines that move and transform large datasets.
+
+SKILLS
+Python, SQL, Airflow, Spark, AWS, ETL
+
+EXPERIENCE
+Data Engineer, Northwind Apps (2024 - Present)
+- Led initiatives using Python and SQL to improve team output
+- Collaborated across teams to deliver projects on schedule
+
+EDUCATION
+M.S. Computer Science, Harborview Business School (2024)

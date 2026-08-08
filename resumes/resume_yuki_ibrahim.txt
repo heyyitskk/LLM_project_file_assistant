@@ -1,0 +1,20 @@
+Yuki Ibrahim
+Frontend Developer
+Email: yuki.ibrahim@example.com | Phone: (555) 605-2489
+
+SUMMARY
+Frontend Developer with 8 years of experience as a frontend developer who builds accessible, performant user interfaces.
+
+SKILLS
+JavaScript, TypeScript, React, CSS, HTML, Jest
+
+EXPERIENCE
+Frontend Developer, Beta Inc (2020 - Present)
+- Led initiatives using JavaScript and TypeScript to improve team output
+- Collaborated across teams to deliver projects on schedule
+
+Frontend Developer (Junior), Lumen Technologies (2016 - 2020)
+- Built foundational skills in JavaScript while contributing to core systems
+
+EDUCATION
+M.S. Computer Science, Riverside College (2016)

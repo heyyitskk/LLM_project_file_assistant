@@ -1,0 +1,17 @@
+Nadia Nguyen
+Machine Learning Engineer
+Email: nadia.nguyen@example.com | Phone: (555) 975-4814
+
+SUMMARY
+Machine Learning Engineer with 1 years of experience as a machine learning engineer deploying models into production systems.
+
+SKILLS
+Python, PyTorch, Machine Learning, NLP, Docker, FastAPI
+
+EXPERIENCE
+Machine Learning Engineer, PixelWorks (2023 - Present)
+- Led initiatives using Python and PyTorch to improve team output
+- Collaborated across teams to deliver projects on schedule
+
+EDUCATION
+B.A. Computer Science, Summit Institute of Technology (2023)

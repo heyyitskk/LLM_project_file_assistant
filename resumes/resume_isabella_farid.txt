@@ -1,0 +1,20 @@
+Isabella Farid
+Product Manager
+Email: isabella.farid@example.com | Phone: (555) 259-4527
+
+SUMMARY
+Product Manager with 4 years of experience as a product manager leading cross-functional teams to ship consumer products.
+
+SKILLS
+Product Strategy, Roadmapping, SQL, Agile, Stakeholder Management
+
+EXPERIENCE
+Product Manager, Skyline Software (2022 - Present)
+- Led initiatives using Product Strategy and Roadmapping to improve team output
+- Collaborated across teams to deliver projects on schedule
+
+Product Manager (Junior), Beta Inc (2020 - 2022)
+- Built foundational skills in Product Strategy while contributing to core systems
+
+EDUCATION
+M.S. Computer Science, Midtown University (2020)

@@ -1,0 +1,20 @@
+Nadia Tanaka
+DevOps Engineer
+Email: nadia.tanaka@example.com | Phone: (555) 559-3296
+
+SUMMARY
+DevOps Engineer with 8 years of experience as a DevOps engineer automating infrastructure and deployment pipelines.
+
+SKILLS
+Python, Bash, Terraform, AWS, Kubernetes, CI/CD, Docker
+
+EXPERIENCE
+DevOps Engineer, Lumen Technologies (2022 - Present)
+- Led initiatives using Python and Bash to improve team output
+- Collaborated across teams to deliver projects on schedule
+
+DevOps Engineer (Junior), DataWorks (2016 - 2022)
+- Built foundational skills in Python while contributing to core systems
+
+EDUCATION
+B.A. Computer Science, Summit Institute of Technology (2016)

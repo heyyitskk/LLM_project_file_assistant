@@ -117,6 +117,111 @@ what arguments.
   field of the returned dict rather than raising exceptions.
 - `write_file` auto-creates any missing parent directories.
 
+---
+
+## RAG-Based Profile Matching (this milestone)
+
+Builds on the file-system tools above to add a full RAG pipeline that
+matches resumes against job descriptions.
+
+```
+resume_rag.py           # Part A: chunk, embed, extract metadata, index into ChromaDB
+job_matcher.py           # Part B: semantic + hybrid search, scoring, must-have filtering
+generate_dataset.py      # one-off script that generated the sample resumes/JDs below
+RAG_experiments.ipynb    # chunking comparison, Recall@K, latency analysis
+resumes/                 # 32 diverse sample resumes (.txt/.pdf/.docx)
+job_descriptions/        # 6 sample job descriptions
+chroma_db/                # created on first run — persistent vector store
+```
+
+### Design choices
+
+- **Embeddings**: local `sentence-transformers` model (`all-MiniLM-L6-v2`) —
+  free, no API key, runs on CPU. Swap `EMBEDDING_MODEL_NAME` in
+  `resume_rag.py` for a larger model if you want higher recall at the cost
+  of speed.
+- **Vector DB**: ChromaDB in persistent local mode (`chroma_db/` folder) —
+  no external service/account needed.
+- **Chunking**: section-aware — splits each resume on its `SUMMARY` /
+  `SKILLS` / `EXPERIENCE` / `EDUCATION` headers so each chunk stays a
+  coherent unit, instead of naive fixed-size splitting.
+- **Metadata extraction**: rule-based (regex/section parsing) rather than
+  an LLM call — deterministic, free, and fast to run over the whole
+  dataset. `job_matcher.py --llm` optionally uses your OpenRouter key to
+  rewrite the *reasoning* text more naturally at query time, but scoring
+  itself never depends on an LLM call.
+- **Hybrid search**: semantic similarity (80% weight) + a keyword bonus
+  (up to +20) for JD-critical skills literally present in the resume, so
+  an exact skill match isn't lost to embedding noise.
+
+### Setup & run
+
+```bash
+pip install -r requirements.txt
+
+# 1. Build the vector index (run once, or whenever resumes/ changes)
+python resume_rag.py
+
+# 2. Match a job description against the indexed resumes
+python job_matcher.py --jd job_descriptions/jd_backend_python.txt
+
+# ...with a must-have filter
+python job_matcher.py --jd job_descriptions/jd_backend_python.txt --must-have "5+ years Python"
+
+# ...or pass JD text directly instead of a file
+python job_matcher.py --jd-text "Senior Python backend engineer, AWS, Docker"
+
+# ...with LLM-enhanced reasoning text (needs OPENROUTER_API_KEY, see above)
+python job_matcher.py --jd job_descriptions/jd_backend_python.txt --llm
+```
+
+Output matches the required schema:
+
+```json
+{
+  "job_description": "...",
+  "top_matches": [
+    {
+      "candidate_name": "John Doe",
+      "resume_path": "resumes/resume_john_doe.txt",
+      "match_score": 92.4,
+      "matched_skills": ["Python", "Docker", "AWS"],
+      "relevant_excerpts": ["..."],
+      "reasoning": "Matched on skills, experience section(s)..."
+    }
+  ]
+}
+```
+
+### Notebook
+
+`RAG_experiments.ipynb` builds the index, then evaluates:
+
+1. Section-aware vs. naive fixed-size chunking
+2. Recall@K (K = 1, 3, 5, 10, 15) against a small hand-labeled ground truth
+3. Query latency
+4. Must-have filtering sanity check
+
+Run it with:
+
+```bash
+jupyter notebook RAG_experiments.ipynb
+```
+
+### Dataset
+
+`resumes/` has 32 resumes across `.txt`, `.pdf`, and `.docx`, covering 15
+different roles (Backend, Data Science, Frontend, DevOps, ML, PM, QA, Data
+Engineering, Mobile, Security, UX, Full Stack, Cloud, Marketing, Sales)
+with varied experience levels (0–12 years). `job_descriptions/` has 6 JDs
+spanning those same role families. Regenerate/expand with:
+
+```bash
+python generate_dataset.py
+```
+
+---
+
 ## Notes
 
 - Generated summaries are written under `output/` by default (the LLM is

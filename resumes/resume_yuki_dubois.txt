@@ -1,0 +1,20 @@
+Yuki Dubois
+Product Manager
+Email: yuki.dubois@example.com | Phone: (555) 314-5374
+
+SUMMARY
+Product Manager with 5 years of experience as a product manager leading cross-functional teams to ship consumer products.
+
+SKILLS
+Product Strategy, Roadmapping, SQL, Agile, Stakeholder Management
+
+EXPERIENCE
+Product Manager, DataWorks (2020 - Present)
+- Led initiatives using Product Strategy and Roadmapping to improve team output
+- Collaborated across teams to deliver projects on schedule
+
+Product Manager (Junior), BrightPath Analytics (2019 - 2020)
+- Built foundational skills in Product Strategy while contributing to core systems
+
+EDUCATION
+B.S. Information Technology, Fairview University (2019)

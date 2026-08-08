@@ -1,0 +1,20 @@
+Sophie Ali
+QA Engineer
+Email: sophie.ali@example.com | Phone: (555) 165-7304
+
+SUMMARY
+QA Engineer with 9 years of experience as a QA engineer building automated test suites to catch regressions early.
+
+SKILLS
+Python, Selenium, Test Automation, Jenkins, API Testing
+
+EXPERIENCE
+QA Engineer, Forge Digital (2021 - Present)
+- Led initiatives using Python and Selenium to improve team output
+- Collaborated across teams to deliver projects on schedule
+
+QA Engineer (Junior), BrightPath Analytics (2015 - 2021)
+- Built foundational skills in Python while contributing to core systems
+
+EDUCATION
+M.S. Statistics, Fairview University (2015)

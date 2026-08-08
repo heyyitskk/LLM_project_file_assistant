@@ -1,0 +1,20 @@
+Andres Chen
+UX Designer
+Email: andres.chen@example.com | Phone: (555) 217-9797
+
+SUMMARY
+UX Designer with 11 years of experience as a UX designer crafting intuitive experiences backed by user research.
+
+SKILLS
+Figma, User Research, Prototyping, Wireframing, Design Systems
+
+EXPERIENCE
+UX Designer, Vertex Labs (2021 - Present)
+- Led initiatives using Figma and User Research to improve team output
+- Collaborated across teams to deliver projects on schedule
+
+UX Designer (Junior), Forge Digital (2013 - 2021)
+- Built foundational skills in Figma while contributing to core systems
+
+EDUCATION
+B.S. Software Engineering, Tech University (2013)

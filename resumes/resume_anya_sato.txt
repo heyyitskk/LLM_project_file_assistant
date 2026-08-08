@@ -1,0 +1,20 @@
+Anya Sato
+Data Engineer
+Email: anya.sato@example.com | Phone: (555) 562-2982
+
+SUMMARY
+Data Engineer with 8 years of experience as a data engineer designing pipelines that move and transform large datasets.
+
+SKILLS
+Python, SQL, Airflow, Spark, AWS, ETL
+
+EXPERIENCE
+Data Engineer, Ironclad Systems (2022 - Present)
+- Led initiatives using Python and SQL to improve team output
+- Collaborated across teams to deliver projects on schedule
+
+Data Engineer (Junior), PixelWorks (2016 - 2022)
+- Built foundational skills in Python while contributing to core systems
+
+EDUCATION
+M.S. Computer Science, Lakeside University (2016)

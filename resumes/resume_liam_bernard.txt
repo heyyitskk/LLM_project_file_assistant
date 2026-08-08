@@ -1,0 +1,20 @@
+Liam Bernard
+Marketing Analyst
+Email: liam.bernard@example.com | Phone: (555) 533-4470
+
+SUMMARY
+Marketing Analyst with 9 years of experience as a marketing analyst translating campaign data into growth insights.
+
+SKILLS
+SQL, Excel, Tableau, A/B Testing, Google Analytics
+
+EXPERIENCE
+Marketing Analyst, LangTech AI (2020 - Present)
+- Led initiatives using SQL and Excel to improve team output
+- Collaborated across teams to deliver projects on schedule
+
+Marketing Analyst (Junior), Nimbus Cloud (2015 - 2020)
+- Built foundational skills in SQL while contributing to core systems
+
+EDUCATION
+B.A. Computer Science, Midtown University (2015)

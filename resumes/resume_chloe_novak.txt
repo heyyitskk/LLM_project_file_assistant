@@ -1,0 +1,17 @@
+Chloe Novak
+DevOps Engineer
+Email: chloe.novak@example.com | Phone: (555) 482-3646
+
+SUMMARY
+DevOps Engineer with 2 years of experience as a DevOps engineer automating infrastructure and deployment pipelines.
+
+SKILLS
+Python, Bash, Terraform, AWS, Kubernetes, CI/CD, Docker
+
+EXPERIENCE
+DevOps Engineer, Acme Corp (2022 - Present)
+- Led initiatives using Python and Bash to improve team output
+- Collaborated across teams to deliver projects on schedule
+
+EDUCATION
+B.S. Software Engineering, Summit Institute of Technology (2022)

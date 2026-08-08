@@ -1,0 +1,17 @@
+Grace Rossi
+Machine Learning Engineer
+Email: grace.rossi@example.com | Phone: (555) 352-9830
+
+SUMMARY
+Machine Learning Engineer with 2 years of experience as a machine learning engineer deploying models into production systems.
+
+SKILLS
+Python, PyTorch, Machine Learning, NLP, Docker, FastAPI
+
+EXPERIENCE
+Machine Learning Engineer, Vertex Labs (2022 - Present)
+- Led initiatives using Python and PyTorch to improve team output
+- Collaborated across teams to deliver projects on schedule
+
+EDUCATION
+MBA, Crestwood College (2022)

@@ -1,0 +1,20 @@
+Maria Adeyemi
+Data Scientist
+Email: maria.adeyemi@example.com | Phone: (555) 343-5562
+
+SUMMARY
+Data Scientist with 8 years of experience as a data scientist with a track record of turning data into predictive models.
+
+SKILLS
+Python, Pandas, scikit-learn, TensorFlow, SQL, Statistics
+
+EXPERIENCE
+Data Scientist, Meridian Health Tech (2020 - Present)
+- Led initiatives using Python and Pandas to improve team output
+- Collaborated across teams to deliver projects on schedule
+
+Data Scientist (Junior), PixelWorks (2016 - 2020)
+- Built foundational skills in Python while contributing to core systems
+
+EDUCATION
+B.S. Electrical Engineering, Riverside College (2016)
