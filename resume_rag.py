@@ -135,10 +135,15 @@ def build_index(resumes_dir: str = "resumes", db_dir: str = "chroma_db") -> dict
 
     t0 = time.time()
 
-    files = fs_tools.list_files(resumes_dir)
-    files = [f for f in files if "error" not in f]
-    if not files:
-        raise RuntimeError(f"No files found in {resumes_dir}/")
+    # list_files() returns a structured dict (see fs_tools.py), not a bare
+    # list -- surface its error clearly rather than silently proceeding
+    # with zero files if e.g. the directory path is wrong.
+    listing = fs_tools.list_files(resumes_dir)
+    if not listing["success"]:
+        raise RuntimeError(f"Could not list resumes in '{resumes_dir}': {listing['error']}")
+    if listing["count"] == 0:
+        raise RuntimeError(f"No files found in '{resumes_dir}/': {listing['message']}")
+    files = listing["files"]
 
     model = SentenceTransformer(EMBEDDING_MODEL_NAME)
 
@@ -154,14 +159,31 @@ def build_index(resumes_dir: str = "resumes", db_dir: str = "chroma_db") -> dict
 
     all_docs, all_metadatas, all_ids = [], [], []
     resumes_processed = 0
+    skipped_files = []
 
     for f in files:
         read_result = fs_tools.read_file(f["path"])
         if not read_result["success"]:
+            # Don't let one bad file (corrupt PDF, unsupported type that
+            # slipped into the folder, etc.) abort the whole indexing run --
+            # skip it, note why, and keep going.
             print(f"  [skip] {f['name']}: {read_result['error']}")
+            skipped_files.append({"name": f["name"], "reason": read_result["error"]})
             continue
 
         text = read_result["content"]
+
+        # --- Edge case: file read "successfully" but has no usable text ---
+        # (0-byte file, or a scanned/image-only PDF read_file() already
+        # flagged via its "warning" field). Indexing an empty chunk would
+        # just waste a slot in the vector DB and never be a useful match,
+        # so skip it and report why, same as a hard read failure.
+        if not text.strip():
+            reason = read_result.get("warning") or "File has no extractable text content."
+            print(f"  [skip] {f['name']}: {reason}")
+            skipped_files.append({"name": f["name"], "reason": reason})
+            continue
+
         chunks = chunk_resume(text)
         metadata = extract_metadata(text, chunks, f["name"])
         resumes_processed += 1
@@ -181,6 +203,14 @@ def build_index(resumes_dir: str = "resumes", db_dir: str = "chroma_db") -> dict
             )
             all_ids.append(f"{f['name']}::{chunk['section']}::{i}")
 
+    # --- Edge case: every file failed to read (all unsupported/corrupt) ---
+    if resumes_processed == 0:
+        raise RuntimeError(
+            f"Found {len(files)} file(s) in '{resumes_dir}/' but none could "
+            f"be read successfully. First error: "
+            f"{skipped_files[0]['reason'] if skipped_files else 'unknown'}"
+        )
+
     embeddings = model.encode(all_docs, show_progress_bar=False).tolist()
 
     collection.add(
@@ -193,6 +223,8 @@ def build_index(resumes_dir: str = "resumes", db_dir: str = "chroma_db") -> dict
     elapsed = time.time() - t0
     stats = {
         "resumes_processed": resumes_processed,
+        "resumes_skipped": len(skipped_files),
+        "skipped_files": skipped_files,
         "total_chunks": len(all_docs),
         "embedding_model": EMBEDDING_MODEL_NAME,
         "db_dir": db_dir,

@@ -1,4 +1,13 @@
 """
+llm_file_assistant.py
+----------------------
+Wires fs_tools.py up to an LLM using OpenRouter (an OpenAI-compatible API
+that can route to Claude, GPT, Llama, Gemini, and many other models with
+a single key), so a user can issue natural-language commands like:
+
+    "List all resumes in the resumes folder"
+    "Find resumes mentioning Python experience"
+    "Create a summary file for resume_john_doe.pdf"
 Setup:
     pip install -r requirements.txt
     export OPENROUTER_API_KEY="your-openrouter-key-here"
