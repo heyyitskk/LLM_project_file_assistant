@@ -3,18 +3,6 @@
 A file-system assistant that lets you manage and query resume files
 (PDF, TXT, DOCX) using natural language, via LLM tool calling.
 
-## Project Structure
-
-```
-llm_file_assistant/
-├── fs_tools.py            # Part A: core file system tools
-├── llm_file_assistant.py  # Part B: LLM integration (tool calling)
-├── requirements.txt
-├── README.md
-├── resumes/                # 7 sample resumes (.txt, .docx, .pdf)
-└── output/                 # generated summaries land here
-```
-
 ## Part A — Core File System Tools (`fs_tools.py`)
 
 | Function | Signature | Purpose |
@@ -119,7 +107,7 @@ what arguments.
 
 ---
 
-## RAG-Based Profile Matching (this milestone)
+## RAG-Based Profile Matching
 
 Builds on the file-system tools above to add a full RAG pipeline that
 matches resumes against job descriptions.
