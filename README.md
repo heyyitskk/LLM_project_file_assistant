@@ -208,18 +208,6 @@ Run it with:
 jupyter notebook RAG_experiments.ipynb
 ```
 
-### Dataset
-
-`resumes/` has 32 resumes across `.txt`, `.pdf`, and `.docx`, covering 15
-different roles (Backend, Data Science, Frontend, DevOps, ML, PM, QA, Data
-Engineering, Mobile, Security, UX, Full Stack, Cloud, Marketing, Sales)
-with varied experience levels (0–12 years). `job_descriptions/` has 6 JDs
-spanning those same role families. Regenerate/expand with:
-
-```bash
-python generate_dataset.py
-```
-
 ---
 
 ## Notes
